@@ -30,7 +30,7 @@ class Operations:
     def dct(self):
         c = np.zeros((self.img.shape))
         for u in range(c.shape[0]):
-            print('Calculudando dct linha ' + str(u))
+            print('Calculando dct linha ' + str(u))
             for v in range(c.shape[1]):
                 au = self.__alfa(u, c.shape[0])
                 av = self.__alfa(v, c.shape[1])
